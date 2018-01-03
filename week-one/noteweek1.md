@@ -57,16 +57,17 @@ SVD
 ![](./imgs/linearregression.png)
 
 ## Cost Function
-Training set $x^2$
-| Size in $feet^2(x)$ | Price ($) in $1000's(y)$ |
-| ------------------- | ------------------------ |
-| 2104                | 460                      |
-| 1416                | 232                      |
-| 1534                | 315                      |
-| 852                 | 178                      |
-| ...                 | ...                      |
+Training set ![](http://latex.codecogs.com/gif.latex?x^2)
+| Size in ![](http://latex.codecogs.com/gif.latex?feet^2\(x\)) | Price (＄) in ![](http://latex.codecogs.com/gif.latex?1000's(y)) |
+| ------------------------------------------------------------ | ----------------------- |
+| 2104                                                         | 460                     |
+| 1416                                                         | 232                     |
+| 1534                                                         | 315                     |
+| 852                                                          | 178                     |
+| ...                                                          | ...                     |
 
-***Hypothesis***: $h_\theta(x)=\theta_0 + \theta_1x$
+***Hypothesis***: ![](http://latex.codecogs.com/gif.latex?h_\\theta(x)=\\theta_0+\\theta_1x)
+
 $\theta_i's$: Parameters
 
 ![costfunction](./imgs/costfunction.png)
